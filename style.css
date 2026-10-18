@@ -1,0 +1,187 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+/* Header */
+header {
+    background: #243447;
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background: #3498db;
+    padding: 9px 18px;
+    margin: 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #1abc9c;
+}
+
+/* Main Content */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 22px;
+    border-radius: 9px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+.card h2 {
+    color: #243447;
+    font-size: 21px;
+    margin-bottom: 14px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #b8d5df;
+}
+
+.card h3 {
+    color: #3498db;
+    font-size: 16px;
+    margin: 10px 0 3px;
+}
+
+.card p {
+    margin-bottom: 5px;
+}
+
+.card ul,
+.card ol {
+    padding-left: 22px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #d5d5d5;
+    padding: 11px;
+    text-align: left;
+}
+
+th {
+    background: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Technical Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.skills span {
+    background: #3498db;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* Buttons */
+button {
+    background: #243447;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #3498db;
+}
+
+/* Center Section */
+.center {
+    text-align: center;
+}
+
+.thank-you {
+    color: #3498db;
+    margin-top: 8px;
+}
+
+/* Footer */
+footer {
+    background: #243447;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    margin-top: 25px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    main {
+        width: 94%;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 7px;
+        overflow-wrap: anywhere;
+    }
+}
